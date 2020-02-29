@@ -4,6 +4,6 @@ def reverse_each_word(sentence)
       text.reverse
     end
     text.each do |text|
-      text.join(" ")
+      text.join
     end
 end
