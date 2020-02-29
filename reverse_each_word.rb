@@ -1,5 +1,5 @@
 def reverse_each_word(sentence)
-  text = sentence.split(' ').reverse 
+  text = sentence.split(//).reverse 
   text.each |text|
-    text.split(//).reverse
+    text.reverse
 end
