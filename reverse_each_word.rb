@@ -5,4 +5,5 @@ def reverse_each_word(sentence)
   end
   text.each do |text|
     text.split(' ').reverse
+  end
 end
